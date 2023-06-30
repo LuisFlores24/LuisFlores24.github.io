@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encrypter</title>
+    <link rel="shortcut icon" href="img/decode.png">
+    <link rel="stylesheet" href="syles.css">
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>    
+</head>
+
+<body>
+    <div class="alura">
+        <img src="img/alura-logo.svg" id="aluraLogo" alt="aluraLogo">
+    </div>
+    <div class="container">
+        <div class="subGeneral">
+
+            <div class="textBox">
+                <div class="title">
+                    <h1>Encrypter*</h1>
+                </div>
+                <div class="encoderBox">
+                    <textarea name="text" id="enBox" cols="30" rows="10" placeholder="Put your text here."></textarea>
+                </div>
+                <div class="terms">
+                    <p>*NOTE: Lowercase only and no accents.</p>
+                </div>
+                <div class="buttons">
+                    <button class="btn-encrypt" type="button" onclick="encrypter()">Encrypt</button>
+                    <button class="btn-decrypt" type="button" onclick="decrypter()">Decrypt</button>
+                    <button class="btn-copy" type="button" onclick="copy()">Copy</button>
+                </div>
+            </div>
+            
+            <div class="advice">
+                <div class="image">
+                    <img src="img/notFound.svg" id="nfImg" alt="txtNotFound">
+                </div>
+                <div class="notText">
+                    <h2 id="titleMessage">No message was found</h2>
+                    <p id="paragraph">
+                        Put the text you want to encrypt or decrypt.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+<script src="index.js"></script>
+
+</html>
