@@ -42,7 +42,7 @@ function decrypter(){
     if (text.length != 0){
         document.getElementById("enBox").value = decryptedText;
         titleMessag.textContent = "(⊙_◎)";
-        Message.textContent = "Successful decrypted text （￣︶￣）↗　";
+        Message.innerHTML = "Successful decrypted text<br>(￣︶￣）↗";
         img.src = "./img/desencriptado.svg"
     } else {
       img.src = "./img/notFound.svg"
