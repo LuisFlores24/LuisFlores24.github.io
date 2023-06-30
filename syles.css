@@ -13,7 +13,7 @@
     width: 2.7%;
     height: 8.025%;
     margin: 20px 0px 0px 20px;
-    background-color: #72ec14;
+    /*background-color: #72ec14;*/
 }
 
 .alura img {
@@ -39,14 +39,14 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: #8597af;
+    /*background-color: #8597af;*/
 }
 
 /* TITULO */
 .textBox {
     display: grid;
     grid-template-rows: 12.5% 62.5% 12.5% 12.5%;
-    background-color: rgb(189, 157, 219);
+    /*background-color: rgb(189, 157, 219);*/
 }
 
 .title {
@@ -55,7 +55,7 @@
     font-size: 20px;
     font-family: 'Cutive Mono', monospace;
     color: #ffffff;
-    background-color: rgb(232, 232, 65);
+    /*background-color: rgb(232, 232, 65);*/
 }
 
 /* CAJA DE ENCRIPTADO */
@@ -81,7 +81,7 @@
     font-size: 15px;
     font-family: 'Cutive Mono', monospace;
     color: #ffffff;
-    background-color: #69ff55;
+    /*background-color: #69ff55;*/
 }
 
 /* BOTONES */
@@ -91,7 +91,7 @@
     padding: 1% 2%;
     gap: 2%;
     justify-items: center;
-    background-color: #dc6943;
+    /*background-color: #dc6943;*/
 }
 
 .btn-encrypt, .btn-decrypt, .btn-copy {
@@ -148,7 +148,7 @@
     display: grid;
     grid-template-rows: 75% 25%;
     margin-left: 50px;
-    background-color: rgb(37, 200, 143);
+    /*background-color: rgb(37, 200, 143);*/
 }
 
 /* IMAGEN */
@@ -156,14 +156,14 @@
     display: flex;
     padding: 2%;
     justify-content: center;
-    background-color: #72ec14;
+    /*background-color: #72ec14;*/
 }
 
 .image img {
     position: absolute;
     height: 71%;
     width: 40%;
-    background-color: rgb(114, 157, 157);
+    /*background-color: rgb(114, 157, 157);*/
 }
 
 /* FALTA INGRESAR TEXTO */
@@ -176,7 +176,7 @@
     border-radius: 8px;
     font-family: 'Cutive Mono', monospace;
     color: #ffffff;
-    background-color: #e3ba15;
+    /*background-color: #e3ba15;*/
 }
 
 
